@@ -1,9 +1,12 @@
 {
-  "name": "optipng-bin",
+  "name": "china-optipng-bin",
   "version": "4.0.0",
-  "description": "OptiPNG wrapper that makes it seamlessly available as a local dependency",
+  "description": "OptiPNG wrapper that makes it seamlessly available as a local dependency, 同步官方代码，解决国内下载jpegtran-bin,optipng-bin依赖的源码慢的问题",
   "license": "MIT",
-  "repository": "imagemin/optipng-bin",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/lscgzwd/optipng-bin.git"
+  },
   "author": {
     "name": "Sindre Sorhus",
     "email": "sindresorhus@gmail.com",
